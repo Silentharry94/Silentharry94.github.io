@@ -1646,7 +1646,12 @@ article:last-child .post-eof {
   margin: 0 auto;
   max-width: 120px;
   padding: 2px;
-  border-radius: 50%;
+}
+.site-author-image {
+  transition: transform 1s ease-out;
+}
+.site-author-image:hover {
+  transform: rotateZ(360deg);
 }
 .site-author-name {
   color: #222;
@@ -1674,7 +1679,7 @@ article:last-child .post-eof {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #ff146f;
+  background: #ff0a2a;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
